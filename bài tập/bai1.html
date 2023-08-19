@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<style>
+    .table{
+        border: 1px solid rgb(249, 249, 248);
+        background-color: rgb(214, 147, 118);
+        width: 200px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        transition: width 4s ;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    
+    span:hover.material-symbols-outlined{
+        color: aliceblue;
+        background-color: black;
+        border-radius: 4px;
+
+    }
+    .home{
+        margin-top: 80px;
+    }
+    div:active.table{
+        width: 1px;
+    }
+    body{background-image: url(https://phunugioi.com/wp-content/uploads/2022/11/Hinh-nen-don-gian.jpg);
+    overflow: hidden;}
+</style>
+<body>
+    <div class="table">
+        
+        <span class="material-symbols-outlined ">
+            close
+            </span>
+        
+        <div class="menu">
+            <span class="home ">Menu</span>
+            <span class="infor ">Info</span>
+            <span class="contact ">Contact</span>
+            <span class="show ">About</span>
+        </div>
+
+    </div>
+</body>
+</html>
